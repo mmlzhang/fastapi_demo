@@ -15,7 +15,7 @@ aerich --app fastapi_demo init-db
 # 设置环境变量 或者添加到 bashrc / zshrc 中
 
 # DB_URI 默认值为下面的值，可以自行设置成自己的
-export DB_URI="postgres://postgres:123456@127.0.0.1:5432/bigquant_service"
+export DB_URI="postgres://postgres:123456@127.0.0.1:5432/db-name"
 
 export DEBUG="True"
 export SHOW_API_DOC="True"
