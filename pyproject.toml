@@ -2,6 +2,6 @@
 line-length = 160
 
 [tool.aerich]
-tortoise_orm = "dataplatform.settings.TORTOISE_ORM"
+tortoise_orm = "fastapi_demo.settings.TORTOISE_ORM"
 location = "./migrations"
 src_folder = "./."

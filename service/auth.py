@@ -3,10 +3,9 @@ from typing import Callable, Optional
 
 from fastapi import Cookie, Header
 
-from .exceptions.exceptions import (DataplatformTokenException,
-                                    UnauthorizedException)
+from .exceptions.exceptions import DataplatformTokenException
 from .schemas.user import Credential, UserSchema
-from .settings import AUTHENTICATION_NAME, IGNORE_TOKEN_AUTH
+from .settings import AUTHENTICATION_NAME
 
 tmp_token = "xxxx"
 

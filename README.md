@@ -1,14 +1,12 @@
-## 数据生产
+## FastAPI Demo
 
-### 需求/设计/开发文档
-http://wiki.bigquant.ai/pages/viewpage.action?pageId=265912341
 
 
 ## 初始化数据库
 ```
-cd /var/app/enabled/bigdataproduction
-aerich init -t dataplatform.settings.TORTOISE_ORM
-aerich --app dataplatform init-db
+cd fastapi_demo
+aerich init -t fastapi_demo.settings.TORTOISE_ORM
+aerich --app fastapi_demo init-db
 ```
 
 ## 本地开发调试
@@ -27,6 +25,6 @@ export IGNORE_TOKEN_AUTH="True"
 uvicorn service:app --host 0.0.0.0 --port 8000 --loop uvloop --http httptools --workers 1 --reload
 
 # 文档访问地址
-http://127.0.0.1:8000/api/dataproduction/docs
+http://127.0.0.1:8000/api/demo/docs
 
 ```

@@ -14,7 +14,6 @@ IGNORE_TOKEN_AUTH = OSEnv.bool("IGNORE_TOKEN_AUTH", False, description="是否�
 
 SHOW_API_DOC = OSEnv.bool("SHOW_API_DOC", False, description="是否显示API文档")
 
-# SERVICE_URL_PREFIX = OSEnv.str("SERVICE_URL_PREFIX", default='/api/dataproduction', description="url前缀")
 SERVICE_URL_PREFIX = OSEnv.str("SERVICE_URL_PREFIX", default='', description="url前缀")
 
 # 企业微信配置
@@ -22,7 +21,7 @@ WECOM_API_KEY = OSEnv.str("WECOM_API_KEY", default='', description="企业微信
 WECOM_MENTIONED_LIST = OSEnv.str("WECOM_MENTIONED_LIST", default='', description="企业微信提醒人员手机号码,多个用逗号隔开")
 
 # 数据库设置
-DB_URI = OSEnv.str("DB_URI", "postgres://postgres:123456@127.0.0.1:5432/dataproduction", description="数据库连接字符串")
+DB_URI = OSEnv.str("DB_URI", "postgres://postgres:123456@127.0.0.1:5432/demo", description="数据库连接字符串")
 DB_TABLE_PREFIX = OSEnv.str("DB_TABLE_PREFIX", "dp__", description="数据库表名前缀")
 
 

@@ -2,7 +2,6 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.gzip import GZipMiddleware
-# from fastapi.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 
 from .db import init_db
