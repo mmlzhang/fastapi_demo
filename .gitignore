@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+*.pyc
+*.css.map
+.sass-cache/
+__pycache__
+/buildoutput
+*.building
+.coverage
+.dep_images
+.pytest_cache
+.vscode
+_unittestreports/
+*.c
+_unittestreports.tar.gz
